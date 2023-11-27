@@ -7,6 +7,6 @@ const PORT = process.env.PORT || 5012;
 
 connectDBs().then(() => {
 	app.listen(PORT, () => {
-		console.log(`Server listening on http://localhost:${PORT}`);
+		console.log(`MS_Users Server listening on http://localhost:${PORT}`);
 	});
 });
