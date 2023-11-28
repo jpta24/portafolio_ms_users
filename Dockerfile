@@ -19,5 +19,5 @@ EXPOSE 5012
 # Run the app when the container launches
 CMD ["node", "server.js"]
 
-# docker build -t test-docker-back .
-# docker run --rm -p 5012:5012 --env-file ./.env --name portafolio-server-container test-docker-back
+# docker build -t test-docker-ms_users .
+# docker run --rm -p 5012:5012 --env-file ./.env --name portafolio-ms_users-container test-docker-ms_users
